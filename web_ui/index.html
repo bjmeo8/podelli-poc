@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podelli POC - Agent System Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1><“ Podelli POC</h1>
+            <p class="subtitle">Agent System Content Visualization</p>
+        </header>
+
+        <!-- Stats Summary -->
+        <section class="stats-section">
+            <h2>=Ê Generation Statistics</h2>
+            <div id="stats-grid" class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-episodes">0</div>
+                    <div class="stat-label">Episodes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-images">0</div>
+                    <div class="stat-label">Images</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-audio">0</div>
+                    <div class="stat-label">Audio Files</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-videos">0</div>
+                    <div class="stat-label">Videos</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Character References -->
+        <section class="characters-section">
+            <h2><­ Character References</h2>
+            <div id="characters-grid" class="characters-grid">
+                <!-- Characters will be loaded here -->
+            </div>
+        </section>
+
+        <!-- Episodes -->
+        <section class="episodes-section">
+            <h2>=Ú Episodes</h2>
+            <div id="episodes-container">
+                <!-- Episodes will be loaded here -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Podelli POC - Generated with AI Agents</p>
+            <p class="tech-stack">
+                Google Imagen 3 " OpenAI TTS " Google Veo 3.1 (mocked)
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

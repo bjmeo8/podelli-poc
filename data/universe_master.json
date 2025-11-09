@@ -1,0 +1,184 @@
+{
+  "universe_title": "Life in Paris",
+  "universe_title_fr": "La vie à Paris",
+  "description": "An immersive learning journey through everyday life in Paris",
+  "target_language": "fr",
+  "missions": [
+    {
+      "master_id": "M1_AIRPORT",
+      "title": "Airport Arrival",
+      "title_fr": "Arrivée à l'aéroport Charles de Gaulle",
+      "objective": "Master basic interactions at the airport: passport control, customs questions, and baggage claim.",
+      "objective_fr": "Apprendre à se présenter, comprendre et répondre aux questions de base à l'aéroport, et s'exprimer clairement à la douane et au comptoir.",
+      "cefr_level": "A1",
+      "episode_count": 4,
+      "episodes": [
+        {
+          "master_id": "M1_E1_PASSPORT",
+          "title": "Passport Control",
+          "title_fr": "Contrôle des passeports",
+          "objective": "Learn to present ID and answer basic entry questions at passport control.",
+          "objective_fr": "Apprendre à présenter son passeport et répondre aux questions de base au contrôle.",
+          "episode_order": 1,
+          "sequence_count": 4,
+          "reference_dialogue": {
+            "lines": [
+              {
+                "speaker": "Agent",
+                "text_en": "Good morning sir, your passport please.",
+                "text_fr": "Bonjour monsieur, votre passeport s'il vous plaît."
+              },
+              {
+                "speaker": "Traveler",
+                "text_en": "Here is my passport.",
+                "text_fr": "Voici mon passeport."
+              },
+              {
+                "speaker": "Agent",
+                "text_en": "Are you here for work or tourism?",
+                "text_fr": "Vous venez pour le travail ou le tourisme ?"
+              },
+              {
+                "speaker": "Traveler",
+                "text_en": "I'm here for work.",
+                "text_fr": "Je viens pour le travail."
+              }
+            ]
+          }
+        },
+        {
+          "master_id": "M1_E2_CUSTOMS",
+          "title": "Customs Questions",
+          "title_fr": "Questions du douanier",
+          "objective": "Learn to answer customs officer's questions about duration of stay and accommodation.",
+          "objective_fr": "Apprendre à répondre aux questions du douanier sur la durée du séjour et le logement.",
+          "episode_order": 2,
+          "sequence_count": 4,
+          "reference_dialogue": {
+            "lines": [
+              {
+                "speaker": "Agent",
+                "text_en": "How many days will you stay?",
+                "text_fr": "Combien de jours resterez-vous ?"
+              },
+              {
+                "speaker": "Traveler",
+                "text_en": "I will stay ten days.",
+                "text_fr": "Je resterai dix jours."
+              },
+              {
+                "speaker": "Agent",
+                "text_en": "Where will you be staying?",
+                "text_fr": "Où logerez-vous ?"
+              },
+              {
+                "speaker": "Traveler",
+                "text_en": "I will stay at Hotel Ibis.",
+                "text_fr": "Je logerai à l'hôtel Ibis."
+              }
+            ]
+          }
+        },
+        {
+          "master_id": "M1_E3_BAGGAGE",
+          "title": "Baggage Claim",
+          "title_fr": "Récupération des bagages",
+          "objective": "Learn to understand airport announcements and report lost luggage.",
+          "objective_fr": "Apprendre à comprendre les annonces de l'aéroport et signaler un bagage perdu.",
+          "episode_order": 3,
+          "sequence_count": 4,
+          "reference_dialogue": {
+            "lines": [
+              {
+                "speaker": "Announcement",
+                "text_en": "Flight AF123 has just arrived.",
+                "text_fr": "Le vol AF123 vient d'arriver."
+              },
+              {
+                "speaker": "Traveler",
+                "text_en": "My suitcase is not here.",
+                "text_fr": "Ma valise n'est pas là."
+              },
+              {
+                "speaker": "Agent",
+                "text_en": "Where is the lost and found office?",
+                "text_fr": "Où est le service des objets trouvés ?"
+              },
+              {
+                "speaker": "Traveler",
+                "text_en": "Excuse me, my suitcase is lost.",
+                "text_fr": "Excusez-moi, ma valise est perdue."
+              }
+            ]
+          }
+        },
+        {
+          "master_id": "M1_E4_EXIT",
+          "title": "Airport Exit",
+          "title_fr": "Sortie de l'aéroport",
+          "objective": "Learn to ask for directions and order a taxi to leave the airport.",
+          "objective_fr": "Apprendre à demander son chemin et commander un taxi pour quitter l'aéroport.",
+          "episode_order": 4,
+          "sequence_count": 4,
+          "reference_dialogue": {
+            "lines": [
+              {
+                "speaker": "Traveler",
+                "text_en": "Excuse me, where is the taxi stand?",
+                "text_fr": "Excusez-moi, où est la station de taxis ?"
+              },
+              {
+                "speaker": "Info_Desk",
+                "text_en": "It's to the right, after the exit.",
+                "text_fr": "C'est à droite, après la sortie."
+              },
+              {
+                "speaker": "Traveler",
+                "text_en": "To the city center, please.",
+                "text_fr": "Au centre-ville, s'il vous plaît."
+              },
+              {
+                "speaker": "Taxi_Driver",
+                "text_en": "Of course, we're leaving right away.",
+                "text_fr": "Bien sûr, on y va tout de suite."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "main_characters": {
+    "description": "Reference characters that appear throughout the universe",
+    "characters": [
+      {
+        "id": "CHAR_TRAVELER",
+        "name": "Alex",
+        "role": "Main character / Learner's avatar",
+        "description": "A young professional arriving in Paris for the first time",
+        "visual_prompt": "A friendly, approachable person in their late 20s, casual business attire, carrying a backpack, looking curious and excited about their Paris adventure, portrait format 9:16"
+      },
+      {
+        "id": "CHAR_AIRPORT_AGENT",
+        "name": "Marie Dubois",
+        "role": "Airport customs agent",
+        "description": "Professional and courteous airport officer",
+        "visual_prompt": "A professional French customs officer in official uniform, friendly demeanor, standing at passport control desk, portrait format 9:16"
+      },
+      {
+        "id": "CHAR_INFO_DESK",
+        "name": "Pierre Martin",
+        "role": "Information desk attendant",
+        "description": "Helpful airport information desk worker",
+        "visual_prompt": "A helpful airport information desk worker in uniform, smiling and welcoming, standing behind information counter, portrait format 9:16"
+      },
+      {
+        "id": "CHAR_TAXI_DRIVER",
+        "name": "Jean Leclerc",
+        "role": "Taxi driver",
+        "description": "Friendly Parisian taxi driver",
+        "visual_prompt": "A friendly middle-aged Parisian taxi driver, casual shirt, standing next to a typical French taxi, portrait format 9:16"
+      }
+    ]
+  }
+}

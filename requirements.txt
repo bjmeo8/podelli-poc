@@ -1,0 +1,33 @@
+# Podelli POC - Requirements
+# Python 3.9+
+
+# Core Dependencies
+python-dotenv==1.0.0
+
+# Google AI SDK
+google-genai==0.2.2
+google-ai-generativelanguage==0.6.1
+
+# OpenAI SDK (for TTS)
+openai==1.12.0
+
+# Web Server
+flask==3.0.0
+
+# Image Processing
+Pillow==10.2.0
+
+# HTTP Requests
+requests==2.31.0
+
+# JSON handling (built-in, but for reference)
+# json (built-in)
+
+# Path handling (built-in)
+# pathlib (built-in)
+
+# Date/time handling (built-in)
+# datetime (built-in)
+
+# UUID generation (built-in)
+# uuid (built-in)
