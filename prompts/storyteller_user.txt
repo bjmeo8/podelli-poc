@@ -1,0 +1,34 @@
+Generate a complete episode script for the following episode:
+
+**Mission Context:**
+- Universe: {universe_title}
+- City: {city_name}
+- Mission: {mission_title}
+- Mission Theme: {mission_theme}
+- Mission Objective: {mission_objective}
+
+**Episode Template:**
+- Episode ID: {episode_id}
+- Title: {episode_title}
+- Description: {episode_description}
+- Objective: {episode_objective}
+- Target Vocabulary: {target_vocabulary}
+- Target Level: {cefr_level}
+- Number of Sequences: 4
+
+**Main Characters Available:**
+{main_characters_info}
+
+**CRITICAL Requirements:**
+1. Generate 4 sequences that naturally progress through the episode objective
+2. Each sequence must be suitable for a 7-second VERTICAL VIDEO (9:16 aspect ratio, 1080x1920)
+3. ALL scene descriptions MUST explicitly mention portrait framing and vertical composition
+4. Include detailed scene descriptions for anime-style video generation in PORTRAIT format
+5. Create natural, conversational dialogues appropriate for {cefr_level} level
+6. Ensure visual consistency across sequences (use seeds)
+7. Include 2-4 new vocabulary words per sequence
+8. Specify camera angles appropriate for PORTRAIT orientation
+9. Describe what appears in upper/mid/lower portions of vertical frame
+
+Generate the complete episode script in JSON format following the specified structure.
+Remember: ALL videos will be shot in MOBILE PORTRAIT format (9:16), so frame compositions must work vertically!

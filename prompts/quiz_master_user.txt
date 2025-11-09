@@ -1,0 +1,28 @@
+Generate pedagogically appropriate distractors for a multiple-choice language learning question.
+
+**Question Context:**
+- Question Text: "{question_text}"
+- Question Type: {question_type}
+- Target CEFR Level: {cefr_level}
+- Language: {language_name} (code: {language_code})
+
+**Correct Answer:**
+"{correct_answer_text}"
+
+**Context/Scene:**
+{scene_description}
+
+**Pedagogical Focus:**
+{pedagogical_focus}
+
+**Requirements:**
+1. Generate 2 plausible but incorrect distractors
+2. Distractors should:
+   - Be appropriate for {cefr_level} level
+   - Reveal common learner mistakes or misconceptions
+   - Be clearly wrong to someone who understands the concept
+   - Seem reasonable to someone still learning
+3. Vary distractor types (use different error strategies)
+4. Ensure only ONE answer is correct (no ambiguity)
+
+Return the distractors in the specified JSON format with explanations.

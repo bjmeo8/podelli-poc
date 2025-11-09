@@ -1,0 +1,54 @@
+podelli-poc/
+├── .env
+├── .gitignore
+├── requirements.txt
+├── README.md
+│
+├── config/
+│   └── settings.py
+│
+├── prompts/                     # 🆕 Dossier des prompts
+│   ├── storyteller_system.txt
+│   ├── storyteller_user.txt
+│   ├── translator_system.txt
+│   ├── translator_user.txt
+│   ├── phonetics_system.txt
+│   ├── phonetics_user.txt
+│   ├── quiz_master_system.txt
+│   └── quiz_master_user.txt
+│
+├── data/
+│   ├── universe_master.json
+│   └── main_characters/
+│
+├── output/
+│   ├── images/
+│   ├── videos/
+│   ├── audio/
+│   └── episodes/
+│
+├── agents/
+│   ├── __init__.py
+│   ├── base_agent.py
+│   ├── orchestrator.py
+│   ├── storyteller.py
+│   ├── translator.py
+│   ├── phonetics.py
+│   ├── art_director.py
+│   ├── video_director.py
+│   ├── voice_actor.py
+│   └── quiz_master.py
+│
+├── tools/
+│   ├── __init__.py
+│   ├── ffmpeg_tool.py
+│   ├── storage_tool.py
+│   └── prompt_loader.py        # 🆕 Gestionnaire de prompts
+│
+├── web_ui/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── main.py
+└── server.py

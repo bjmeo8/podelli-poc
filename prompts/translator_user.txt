@@ -1,0 +1,20 @@
+Translate the following episode script to {language_name} (code: {language_code}).
+
+**Target Language:** {language_name}
+**Language Code:** {language_code}
+**Cultural Context:** {city_name}, {country_name}
+**Formality Level:** {formality_level}
+
+**Episode Script (JSON):**
+{episode_script_json}
+
+**Translation Requirements:**
+1. Translate all user-facing text (titles, descriptions, dialogues)
+2. Keep technical fields (IDs, seeds, scene descriptions, character descriptions) in English
+3. Ensure dialogues sound natural to native {language_name} speakers
+4. Adapt cultural references appropriately for {city_name}
+5. Maintain pedagogical focus and vocabulary
+6. Add `text_en` field with original English for ALL dialogue lines
+7. Use appropriate formality ({formality_details}) based on context
+
+Return the translated JSON maintaining the exact same structure.

@@ -1,0 +1,35 @@
+Ce n'est pas mal du tout. Bon nous allons créer une environnement de dev venv pour tester tout ce système. Alors nous allons tester tout ça en local hein, pas de prod pour l'instant. Donc tous les médias générés seront stocké dans un sous dossier du projet de test. Ici, nous voulions effectuer un petit POC pour nous assurer que le système d'agent est capable d'assurer le boulot. Pour visualiser nos résultats, nous allons créer une petite interface html en local sur laquelle nous afficherons les productions de chaque agents. Les clés API etc seront stockées dans un fichier env. Bien sûr tout sera codé en python
+
+Voici les différentes sources nécessaires pour les docs: Google ADK Docs:  * https://google.github.io/adk-docs/tutorials/ * https://google.github.io/adk-docs/tutorials/agent-team/ * https://google.github.io/adk-docs/get-started/quickstart/ * https://github.com/google/adk-samples * https://google.github.io/adk-docs/agents/models/ * https://github.com/google/adk-python
+
+Google Gemini 2.5 Flash and Pro API Docs: * https://ai.google.dev/gemini-api/docs/models?hl=fr * https://ai.google.dev/gemini-api/docs/quickstart?hl=fr * https://ai.google.dev/gemini-api/docs/text-generation?hl=fr
+
+Google Gemini Nano Banana API Docs: * https://ai.google.dev/gemini-api/docs/image-generation?hl=fr
+
+Google Veo 3.1 and other Voe API Docs: * https://ai.google.dev/gemini-api/docs/video?hl=fr&example=dialogue * https://ai.google.dev/gemini-api/docs/video?hl=fr&example=realism * https://ai.google.dev/gemini-api/docs/video?hl=fr&example=style * https://docs.cloud.google.com/vertex-ai/generative-ai/docs/model-reference/veo-video-generation?hl=fr
+
+Open AI GPT-4o TTS API Docs: * https://platform.openai.com/docs/guides/text-to-speech * https://platform.openai.com/docs/api-reference/audio/createSpeech
+
+Bien sûr si tu manques d'infos tu peux effectuer des recherches supplémentaires sur internet. J'ai aussi joint la base de données de Podelli pour que tu puisses avoir une idée de la base. C'est juste une information supplémentaire pour toi.
+
+Aussi, pour les média, le format doit être le format mobile, donc le format portrait 9:16.
+
+Merci de bien vouloir me générer tout ça proprement.
+
+Les prompts doivent être dans un dossier prompts avec le prompt de chaque agent dans son fichier txt. Les prompt pourront être chargé dynamiquement  et populé puis passé aux agents
+
+
+
+J'ai aussi joint les document de podelli pour que tu puisses comprendre le projet ainsi que la structure de fichier pour le POC. Alors pour ce POC le but n'est pas de coder tout Podelli hein, mais juste la partie du système d'agent et de tester son fonctionnement. 
+
+
+
+Alors tu dois bien lire les Docs pour pouvoir bien les utiliser, faut pas inventer des paramètres ou librairies qui n'existent pas, tu peux aussi compléter tes recherches via internet si tu n'es pas sûr.
+
+
+
+Tu commenceras par créer tous les prompts pour chaque agents puis les fichiers utiles et ensuite nous implémenterons chaque agent étape par étape jusqu'à finir tous les agents. Pour le fichier JSON de l'univers on peut commencer avec une seule mission de 4 épisodes pour notre premier test. Aussi, pour les personnages de références, tu peux inclure exceptionnellement un agent qui les génèrera et les stockera au tout premier démarrage de du test et les stockera dans les dossiers associés. Ensuite ces personnages seront utilisé pour tout nos tests.
+
+
+
+Merci de générer les codes dans des artifacts

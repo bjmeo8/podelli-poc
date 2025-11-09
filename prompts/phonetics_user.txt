@@ -1,0 +1,15 @@
+Generate a Voice Spell (intuitive phonetic transcription) for the following phrase.
+
+**Phrase:** "{target_phrase}"
+**Target Language:** {target_language_name} (code: {target_language_code})
+**Learner's Native Language:** {native_language_name} (code: {native_language_code})
+
+**Requirements:**
+1. Create a simplified phonetic transcription using sounds familiar to {native_language_name} speakers
+2. Separate syllables with hyphens
+3. Use CAPITALS for stressed syllables
+4. Make it readable aloud without phonetic training
+5. Include pronunciation notes for difficult sounds
+6. Ensure the transcription helps learners pronounce the phrase naturally
+
+Return the Voice Spell in the specified JSON format.
