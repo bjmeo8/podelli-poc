@@ -18,18 +18,10 @@ Merci de bien vouloir me générer tout ça proprement.
 
 Les prompts doivent être dans un dossier prompts avec le prompt de chaque agent dans son fichier txt. Les prompt pourront être chargé dynamiquement  et populé puis passé aux agents
 
-
-
 J'ai aussi joint les document de podelli pour que tu puisses comprendre le projet ainsi que la structure de fichier pour le POC. Alors pour ce POC le but n'est pas de coder tout Podelli hein, mais juste la partie du système d'agent et de tester son fonctionnement. 
-
-
 
 Alors tu dois bien lire les Docs pour pouvoir bien les utiliser, faut pas inventer des paramètres ou librairies qui n'existent pas, tu peux aussi compléter tes recherches via internet si tu n'es pas sûr.
 
+Pour le fichier JSON de l'univers on peut commencer avec une seule mission de 4 épisodes pour notre premier test. Aussi, pour les personnages de références, tu peux inclure exceptionnellement un agent qui les génèrera et les stockera au tout premier démarrage du test et les stockera dans les dossiers associés. Ensuite ces personnages seront utilisé pour tout nos tests.
 
-
-Tu commenceras par créer tous les prompts pour chaque agents puis les fichiers utiles et ensuite nous implémenterons chaque agent étape par étape jusqu'à finir tous les agents. Pour le fichier JSON de l'univers on peut commencer avec une seule mission de 4 épisodes pour notre premier test. Aussi, pour les personnages de références, tu peux inclure exceptionnellement un agent qui les génèrera et les stockera au tout premier démarrage de du test et les stockera dans les dossiers associés. Ensuite ces personnages seront utilisé pour tout nos tests.
-
-
-
-Merci de générer les codes dans des artifacts
+Dans le repos, tu trouveras les document nécessaires pour bien comprendre le projet à savoir "Podelli - Language Study App.pdf", "arch.md"
