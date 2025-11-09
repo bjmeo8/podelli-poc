@@ -20,10 +20,12 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
 # Model Configuration
-GEMINI_TEXT_MODEL = "gemini-2.0-flash-exp"  # For text generation
-IMAGEN_MODEL = "imagen-3.0-generate-002"  # For image generation
-VEO_MODEL = "veo-3.1-fast-generate-001"  # For video generation
-OPENAI_TTS_MODEL = "tts-1-hd"  # For voice generation
+GEMINI_TEXT_MODEL = "gemini-2.5-pro-002"  # For text generation and agents
+GEMINI_TEXT_MODEL_FAST = "gemini-2.5-flash-002"  # For faster text generation
+NANO_BANANA_MODEL = "gemini-2.5-flash-image-preview"  # For image generation (Nano Banana)
+VEO_MODEL = "veo-3.1-generate-preview"  # For video generation
+VEO_FAST_MODEL = "veo-3.1-fast-generate-preview"  # For faster video generation
+OPENAI_TTS_MODEL = "gpt-4o-mini-tts"  # For voice generation
 
 # Media Settings
 IMAGE_ASPECT_RATIO = "9:16"  # Portrait format for mobile
@@ -67,7 +69,7 @@ def validate_config():
         errors.append("OPENAI_API_KEY not found in .env")
 
     if errors:
-        print("   Configuration Warnings:")
+        print("ï¿½  Configuration Warnings:")
         for error in errors:
             print(f"   - {error}")
         print("\n   Please set these in your .env file")
